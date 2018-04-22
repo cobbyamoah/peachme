@@ -1,0 +1,149 @@
+/* Navigation */
+
+li.nav-item {
+    margin: 0.8em 0.3em;
+}
+
+a.nav-link {
+    font-size: 16px;
+}
+
+.btn-outline-primary {
+    color: #0bbcd3;
+    border-color: #0bbcd3;
+}
+
+/* Jumbotron Section */
+
+.home-jumbotron {
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+}
+
+.jumbotron {
+    padding: 7rem 2rem;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;   
+}
+
+.jumbotron .lead {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.8px; 
+}
+
+.main-search {
+    height: 50px;
+    border-radius: 5px !important;
+    z-index: 900;   
+}
+
+.input-group-append {
+    margin-left: -106px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    z-index: 1000; 
+}    
+
+.search-btn {
+    border-radius: 3px !important;
+    border: #fff;
+    color: #fff; font-size: 15px; font-weight: 300;
+    background: rgb(116,0,146);
+    background: linear-gradient(117deg, rgba(116,0,146,0.9724264705882353) 13%, rgba(86,21,128,1) 59%);
+}
+
+
+/* Section Two */
+
+#sectionTwo {
+    background: rgb(116,0,146);
+    background: linear-gradient(117deg, rgba(116,0,146,0.9724264705882353) 13%, rgba(86,21,128,1) 59%);
+    text-align: center;
+    padding: 2.5rem 20%;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+}
+
+/* Section Three */
+
+#sectionThree {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.point-header {
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.point-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #6F6A71;
+}
+
+/* Section Four */
+
+#sectionFour {
+    background: rgb(116,0,146);
+    background: linear-gradient(117deg, rgba(116,0,146,0.9724264705882353) 13%, rgba(86,21,128,1) 59%);
+    padding: 4% 2%;
+}
+
+.secfour-img {
+    padding-right: 4%;
+}
+
+.four-text {
+    padding-top: 5%;
+    font-weight: 300;
+    padding-right:  7%;
+}
+
+.sectionfour-header {
+    color: #fff;
+    font-size: 28px;
+}
+
+.how-list {
+    padding-left: 4%;
+    color: #fff;
+}
+
+.how-list li {
+    margin: 0 0 4% 0;
+}
+
+.signup-btn {
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 2%;
+}
+
+.signup-text {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/* Footer */
+
+.nav-item .nav-link {
+    color: rgba(0,0,0,.5);
+}
+/* General */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fcfbfc;
+}
