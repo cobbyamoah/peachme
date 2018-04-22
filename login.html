@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style/main.css">
     <title>Peach - Connecting People With Chronic Conditions</title>
   </head>
-  <body>
-    <div class="container"> 
+  <body class="">
+    <div class="container "> 
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#" style="line-height: 23px;">
                 <img src="img/logo_black.png" width="140px" height=""  class="d-inline-block align-top" alt="">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#">Researchers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Providers</a>
+                        <a class="nav-link" href="#">Providers</a>
                     </li>
                 </ul>
             </div>
@@ -43,72 +43,40 @@
                 <!-- <button type="button" class="btn btn-outline-primary">Sign In</button> -->
             </ul>
         </nav>
-    </div> 
-    <div class="jumbotron text-center home-jumbotron">
-        <div class="container">
-            <h1 class="display-4">People who share your experience.</h1>
-            <p class="lead">Peach connects you to people living with the same disease or condition as you.</p>
-            <div class="input-group mb-3" style="padding: 1% 20%;">
-                <input type="text" class="form-control main-search" placeholder="I or a loved one has..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary search-btn" type="button">Get Started</button>
-                </div>
-            </div>
-        </div>
     </div>
-    <div id="sectionTwo" class="section">
-        Peach's advanced system puts you in a community of people with similar conditions as you. Our
-        healthcare providers are ready to answer your most important questions. 
-    </div>
-    <div class="container">
-        <div class="row" id="sectionThree">
-            <div class="col-md-4">
-                <i class="far fa-comments fa-3x" style="color:rgb(116,0,146);"></i>
-                <h4 class="point-header">Join caring communities</h4>
-                <p class="point-text">
-                    It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. 
-                </p>
-            </div>
-            <div class="col-md-4">
-                <i class="fab fa-leanpub fa-3x" style="color:rgb(116,0,146);"></i>
-                <h4 class="point-header">Ask specialists and counselors</h4>
-                <p class="point-text">
-                    It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. 
-                </p>
-            </div>
-            <div class="col-md-4">
-                <i class="fas fa-user-md fa-3x" style="color:rgb(116,0,146);"></i>
-                <h4 class="point-header">Access educational content</h4>
-                <p class="point-text">
-                    It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. 
-                </p>
-            </div>
-        </div>
-    </div>
-    <div id="sectionFour">
-        <div class="row">
-            <div class="col-md-8 col-lg-8 secfour-img">
-                <img src="img/placeholder-mockup.png" width="100%">
-            </div>
-            <div class="col-md-4 col-lg-4 four-text">
-                <h4 class="sectionfour-header">How To Use Peach</h4>
+    <div class="login-body login-page">
+        <div class="card" >
+            <!-- <img class="card-img-top" src="img/login_card.jpg" alt="Card image cap"> -->
+            <div class="card-body" style="padding: 5% 15%;">
+                <h5 class="card-title">Sign in with your email </h5>
                 <br/>
-                <ul class="how-list" style="list-style-type: circle; font-size: 15px;">
-                    <li>Simply sign up for peach with your email. </li>
-                    <li>Select conditions or diseases that apply to you.</li>
-                    <li>Join several communities of patients with the same condition as you.</li>
-                    <li>Providers are available and ready to answer any question you may have.</li>
-                </ul>
-                <br/>
-                <div class="signup-btn">
-                    <a class="signup-text">Sign Up</a>
-                </div>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 5px;">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="form-group form-check col-md-6" style="text-align: left; padding-left: 6%;">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label sub-label" for="exampleCheck1">remember me on this computer</label>
+                        </div>
+                        
+                    </div>
+                    <button type="submit" class="btn btn-primary login-btn">Login</button>
+                    <div class="forgot-pass">
+                            <label class="form-check-label " for="exampleCheck1">forgot your password?</label>
+                        </div>
+                </form>
             </div>
         </div>
     </div>
+    
+    
+    
+    
     <!-- <div id="sectionFive">
         <div class="container">
             <div class="row">

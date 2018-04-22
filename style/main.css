@@ -147,3 +147,39 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #fcfbfc;
 }
+
+.card-title {
+    color: rgba(0,0,0,.5); 
+}
+
+/* Login Screen */
+
+.login-page {
+    background-image: url(/img/login-bg.png);
+    background-size: cover;
+}
+
+.login-body {
+    padding: 10% 25%;
+    text-align: center;
+}
+
+.forgot-pass {
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    font-size: 15px;
+    margin: 2%;
+}
+
+.sub-label {
+    color: #5993d8;
+    font-size: 13px;
+}
+
+.login-btn {
+    padding: 2% 8%;
+    background: linear-gradient(117deg, rgba(116,0,146,0.9724264705882353) 13%, rgba(86,21,128,1) 59%);
+    border-color: #fff;
+}
+
+/* Media Queries */
