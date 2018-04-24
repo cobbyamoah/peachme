@@ -11,6 +11,8 @@
 
 .sidebar a {
     color: rgb(78,78,78);
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .sidebar-sticky li {
@@ -21,7 +23,28 @@
     color: rgb(136,136,136);
 }
 
+/* Feed */
 
+.main-search {
+    height: 40px;
+    border-radius: 5px !important;
+    z-index: 900;   
+}
+
+.input-group-append {
+    margin-left: -65px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    z-index: 1000; 
+}  
+
+.search-btn {
+    border-radius: 3px !important;
+    border: #fff;
+    color: #fff; font-size: 15px; font-weight: 300;
+    background: rgb(116,0,146);
+    background: linear-gradient(117deg, rgba(116,0,146,0.9724264705882353) 13%, rgba(86,21,128,1) 59%);
+}
 
 
 
@@ -36,3 +59,9 @@ body {
     background: #f1f1f1;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+
+
