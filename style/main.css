@@ -13,6 +13,11 @@ a.nav-link {
     border-color: #0bbcd3;
 }
 
+.mobile-login {
+    display: none;
+}
+
+
 /* Jumbotron Section */
 
 .home-jumbotron {
@@ -50,7 +55,11 @@ a.nav-link {
     margin-top: 5px;
     margin-bottom: 6px;
     z-index: 1000; 
-}    
+} 
+
+.search-disease {
+    padding: 1% 20%;
+}
 
 .search-btn {
     border-radius: 3px !important;

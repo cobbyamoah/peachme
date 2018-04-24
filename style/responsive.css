@@ -1,0 +1,70 @@
+/* HomePage */
+
+@media only screen and (max-width: 1024px) {
+    .four-text {
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .mobile-left {
+        display: none;
+    }
+
+    .mobile-login {
+        display: block;
+    }
+
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .jumbotron .lead {
+        padding: 0 5%;
+    }
+
+    #sectionTwo {
+        padding: 2.5rem 10%;
+    }
+
+    #sectionThree {
+        padding: 5rem 1rem;
+    }
+
+    .four-text {
+        padding: 1% 5%;
+    }
+
+    .secfour-img {
+        padding: 5% 1%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .jumbotron {
+        padding: 5rem 0.5rem;
+    }
+
+    .search-disease {
+        padding: 1% 1%;
+    }
+
+    #sectionTwo {
+        padding: 2rem 4%;
+        font-size: 14px;
+    }
+    
+    .four-text {
+        padding: 5% 10%;
+    }
+
+    .secfour-img {
+        padding: 5% 10%;
+    }
+
+    
+}
+
