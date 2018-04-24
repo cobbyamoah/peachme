@@ -23,6 +23,16 @@
     color: rgb(136,136,136);
 }
 
+.nav-search {
+    /* width: 120px; */
+    margin: 0 10%;
+}
+
+.nav-search .input-group-text, .form-control {
+    background-color: #e5e5e5;
+    border: 0;
+}
+
 /* Feed */
 
 .main-search {
@@ -60,6 +70,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.form-control {
+
+}
 
 
 
